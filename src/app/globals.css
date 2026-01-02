@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary: #7B61FF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #07080C;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: #07080C;
+  color: var(--foreground);
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background: #7B61FF;
+}
+
